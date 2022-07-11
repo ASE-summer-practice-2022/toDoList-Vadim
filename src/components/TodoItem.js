@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import TodoList from "./TodoList";
-import {} from './context'
+import {} from '../context/context'
 
 export default function TodoItem({title, id, completed}) {
   const [checked, setChecked] = useState(completed)
